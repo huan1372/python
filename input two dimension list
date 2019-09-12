@@ -1,1 +1,8 @@
-
+list2=[[0]*n]*n
+#initialize the list
+for i in range(n):
+    list2[i]=input().split(' ')# can change to ',' as needed
+    list2[i]=[int(j) for j in list2[i]]
+#input like 2 3 4
+            2 2 2
+            2 2 2
